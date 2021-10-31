@@ -701,7 +701,8 @@ color: white;
     border-radius: 4px;
     height: 581px;
     position: relative;
-    padding: 40px;
+    
+    
 
 }
 
@@ -761,8 +762,10 @@ color: white;
      transform: translateY(0);
  }
  .form {
-    padding: 39px;
+    margin: 39px;
     text-align: center;
+    
+
  }
  .form-title {
  font-weight: bold;
@@ -771,6 +774,8 @@ color: white;
  letter-spacing: 0.03em;
  color: #212121;
  margin-bottom: 12px;
+ 
+
 }
 .form-text {
     text-align: left;
@@ -794,8 +799,10 @@ color: white;
     box-sizing: border-box;
     border-radius: 4px;
     height: 40px;
-
     padding: 12px 15px 12px 45px;
+    
+    
+
 
 }
 
@@ -869,7 +876,7 @@ color: white;
     margin-left: 7px;
     text-decoration: underline;
 }
-.form-checkbox :checked + .form-box-icon {
+.form-checkbox:checked + .form-box-icon {
     border: none;
     background: #2196F3;
 }
